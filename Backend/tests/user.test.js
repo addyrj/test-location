@@ -87,3 +87,18 @@
 //    - Use a testing framework like Mocha or Jest.
 //    - Write test cases for each endpoint using mocking libraries like `sinon` for HTTP requests.
 //    - Run the tests using the testing framework's command-line interface or IDE integration.
+// post 
+// http://localhost:4000/api/v1/users/register
+// Response {
+//   "success": true,
+//   "message": "Register successfully"
+// }
+// post loginn
+// http://localhost:4000/api/v1/users/login
+// {
+
+//   "email": "rj@example.com",
+//   "password": "password123"
+// }
+// get 
+// http://localhost:4000/api/v1/users/all

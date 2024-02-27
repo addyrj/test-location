@@ -76,3 +76,38 @@
 //    - Use a testing framework like Mocha or Jest.
 //    - Write test cases for each endpoint using mocking libraries like `sinon` for HTTP requests.
 //    - Run the tests using the testing framework's command-line interface or IDE integration.
+
+
+
+
+//postmen response
+
+// 1.. post:-
+// http://localhost:4000/api/v1/location/locations
+// params 
+// {"name":"pokkhhhkkkjkjjk",
+//   "latitude": 123.456,
+//   "longitude": -45.678,
+//   "timestamp": "2024-02-25T12:00:00Z"
+// }
+// 2.. get
+// http://localhost:4000/api/v1/location/allLocations
+// "success": true,
+// "locations": [
+//     {
+//         "_id": "65dca6ae01c278cc84fd48a5",
+//         "name": "delhi",
+//         "latitude": 123.456,
+//         "longitude": -45.678,
+//         "user": "65dca3e56f852bd26eddfce5",
+//         "CreatedAt": "2024-02-26T14:56:46.105Z",
+//         "__v": 0
+//     },
+// 3..pur
+// http://localhost:4000/api/v1/location/65dd6aa9686a09b865b2d5f9
+// { "name":"bihar",
+// "latitude": 888,
+//     "longitude": 888
+// }
+// 4..delete
+// http://localhost:4000/api/v1/location/65dd6aa9686a09b865b2d5f9
